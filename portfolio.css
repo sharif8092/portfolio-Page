@@ -1,0 +1,50 @@
+ol{
+    color: rgb(216, 138, 22);
+}
+li{
+    color: rgb(235, 47, 47);
+}
+
+.port{
+    background-color: #262a21cc;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 1px;
+    text-align: center;
+}
+.img1{
+
+    
+    object-fit: fill;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+     
+}
+form{
+    margin: auto; width: 220px;
+}
+#name{
+  background-color: #2d3633;
+  margin: bottom 4px; 
+  padding-bottom: 4px;
+    
+}
+#email{
+    background-color: #2d3633;
+    margin: bottom 4px; 
+    padding-bottom: 4px;
+}
+#subject{
+    background-color: #2d3633;
+    margin: bottom 4px; 
+    padding-bottom: 4px;
+    
+}
+#message{
+    background-color: #2d3633;
+    margin: bottom 4px; 
+    padding-bottom: 4px;
+    
+}
+

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: rgb(105, 95, 95);
+    width: 10vw;
+    font-family: 'Tiro Gurmukhi', serif; 
+}
+.sidebar nav{
+    padding: 45px;
+    height: 100vh;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding-top: 33px;
+    
+
+}
+
+.main{
+    /* background: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(212, 26, 157); */
+    height: 58vh;
+    width: 80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif
+}
+.devpic img{
+         height: 58vh;
+ 
+}
+.hello{
+ font-size: 65px;
+ 
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Tiro Gurmukhi', serif; 
+}
+.about{
+    font-size: 45px;
+    
+}
+.button button{
+    
+}
