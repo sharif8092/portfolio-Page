@@ -7,8 +7,10 @@
 
 .sidebar{
     background-color: rgb(105, 95, 95);
-    width: 10vw;
+    width: 42vw;
     font-family: 'Tiro Gurmukhi', serif; 
+    color: white;
+    margin-right: 93px;
 }
 .sidebar nav{
     padding: 45px;
@@ -22,6 +24,12 @@
     
 
 }
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    
+
+}
 
 .main{
     /* background: yellow; */
@@ -29,38 +37,65 @@
 }
 .container{
     display: flex;
+    
 }
 .infocontainer{
-    /* background-color: rgb(212, 26, 157); */
-    height: 58vh;
+    background-color: rgb(157 24 117 / 15%);
+    height: 65vh;
     width: 80vw;
     margin:144px auto;
     display: flex;
     justify-content: space-around;
+   
+
 }
 .devinfo{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Source Sans Pro', sans-serif
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 .devpic img{
-         height: 58vh;
+         height: 65vh;
  
 }
 .hello{
- font-size: 65px;
+ font-size: 55px;
  
 }
 .name{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     font-family: 'Tiro Gurmukhi', serif; 
 }
 .about{
     font-size: 45px;
+        padding: 14px;
+    border-radius: 65px;
     
+}
+.aboutmore{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Tiro Gurmukhi', serif; 
 }
 .button button{
+   
+    padding: 7px;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    margin:30px 10px;
+    cursor: pointer;
     
 }
+.button button:hover{
+    background-color: white;
+     color: blue;
+
+}
+.contactform{
+    text-align: center;
+}
+
